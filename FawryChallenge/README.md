@@ -1,18 +1,32 @@
-## Getting Started
+# Fawry Internship Challenge - FullStack
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+A Java-based checkout system implementation for Fawry's internship challenge, demonstrating OOP principles and clean architecture.
 
-## Folder Structure
+## 📌 Project Overview
 
-The workspace contains two folders by default, where:
+This system simulates an e-commerce checkout process with:
+- Product inventory management
+- Shopping cart functionality
+- Order processing with shipping calculations
+- Receipt generation
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+  ## ✨ Key Features
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. **Product Management**
+   - Support for both physical (shippable) and notShippable products
+   - Expiration tracking for perishable goods
+   - Inventory quantity control
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+2. **Checkout Process**
+   - Cart validation
+   - Shipping cost calculation (30 EGP/kg)
+   - Balance verification
+   - Inventory updates
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+3. **Output Generation**
+   - Detailed shipment notice
+   - Formatted receipt with:
+     - Itemized list
+     - Subtotal
+     - Shipping costs
+     - Grand total
